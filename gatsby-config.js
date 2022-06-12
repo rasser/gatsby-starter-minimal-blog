@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `RSC`,
     siteTitleAlt: `Rasmus Szegeny Chrstiansen`,
     siteHeadline: `Rasmus Szegeny Christiansen`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
+    siteUrl: `rbchristiansen.com`,
     siteDescription: `Writing about analytics and data`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
@@ -42,7 +42,7 @@ module.exports = {
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `www.rbchristiansen.com`,
           },
         ],
       },
@@ -68,7 +68,7 @@ module.exports = {
       options: {
         name: `Data and Analytics`,
         short_name: `data`,
-        description: `TWriting about analytics and data.`,
+        description: `Writing about analytics and data.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -133,7 +133,7 @@ module.exports = {
               }
             `,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `RSC - Data and Anayltics`,
           },
         ],
       },
