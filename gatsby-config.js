@@ -8,13 +8,13 @@ module.exports = {
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.js
     siteTitle: `RSC`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
+    siteTitleAlt: `Rasmus Szegeny Chrstiansen`,
+    siteHeadline: `Rasmus Szegeny Christiansen`,
     siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Write about analytics and data`,
+    siteDescription: `Writing about analytics and data`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@R_bchristiansen`,
   },
   plugins: [
     {
@@ -34,7 +34,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/R_bchristiansen`,
+          },
+          {
+            name: `LinkedIn`,
+            url: `https://www.linkedin.com/in/rbchristiansen`,
           },
           {
             name: `Homepage`,
@@ -62,9 +66,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Data and Analytics`,
+        short_name: `data`,
+        description: `TWriting about analytics and data.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
