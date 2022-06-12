@@ -10,7 +10,7 @@ module.exports = {
     siteTitle: `RSC`,
     siteTitleAlt: `Rasmus Szegeny Chrstiansen`,
     siteHeadline: `Rasmus Szegeny Christiansen`,
-    siteUrl: `rbchristiansen.com`,
+    siteUrl: `https://minimal-blog.lekoarts.de`,
     siteDescription: `Writing about analytics and data`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
@@ -42,7 +42,7 @@ module.exports = {
           },
           {
             name: `Homepage`,
-            url: `www.rbchristiansen.com`,
+            url: `https://www.rbchristiansen.com`,
           },
         ],
       },
@@ -68,7 +68,7 @@ module.exports = {
       options: {
         name: `Data and Analytics`,
         short_name: `data`,
-        description: `Writing about analytics and data.`,
+        description: `TWriting about analytics and data.`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
