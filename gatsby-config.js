@@ -23,7 +23,7 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `Blog2`,
             slug: `/blog`,
           },
           {
